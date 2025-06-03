@@ -22,6 +22,7 @@ the following contraints:
 
 For transient solutions, N_z x N_r x N_th < 15625
 For steady-state solutions, N_z x N_r x N_th < 3375
+
 **(system used an i9-13900kf @ ~5.3 GHz, RTX 4070 Ti, and 64 GB of RAM)
 
 In general, transient solution will be much faster (even for large time
@@ -57,7 +58,7 @@ over.
 
 # Step 4: Solver runs ...
 
-% Step 5: Plotting
+# Step 5: Plotting
 By default, the script plots either the steady-state solution, or the
 transient solution at the last time step. If a 2D analysis was performed,
 a 2D surf plot is automatically generated. If a 3D analysis was 
