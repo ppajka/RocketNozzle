@@ -20,8 +20,8 @@ The script runs fairly efficiently, but slows quite a bit for larger
 domains. For a run time less than 2 minutes, it is recommended to keep to
 the following contraints:
 
-For transient solutions, N_z*N_r*N_th < 15625
-For steady-state solutions, N_z*N_r*N_th < 3375
+For transient solutions, N_z x N_r x N_th < 15625
+For steady-state solutions, N_z x N_r x N_th < 3375
 **(system used an i9-13900kf @ ~5.3 GHz, RTX 4070 Ti, and 64 GB of RAM)
 
 In general, transient solution will be much faster (even for large time
